@@ -7,7 +7,8 @@ const { param } = require("express/lib/request");
 const mongodb = require("mongodb");
 
 const mongoClient = mongodb.MongoClient;
-const URL = "mongodb://localhost:27017";
+const URL =
+  "mongodb+srv://rani:Mymongodb#123@cluster0.aj2dp.mongodb.net/?retryWrites=true&w=majority";
 
 app.use(express.json());
 
